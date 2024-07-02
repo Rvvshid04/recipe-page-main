@@ -8,6 +8,10 @@
 body{
     font-family: 'Outfit', sans-serif;
     background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 p{
@@ -23,7 +27,13 @@ img{
 }
 
 
-.container{ min-height: 80vh; background-color: white; width: 810px; border-radius: 10px;}
+.container{ 
+    margin: 40px 0px;
+    min-height: 80vh;
+    background-color: white;
+    width: 810px;
+    border-radius: 10px; 
+}
 
 .food-details{
     display: flex;
