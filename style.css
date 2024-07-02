@@ -53,12 +53,31 @@ img{
     font-weight: 400;
 }
 
+#prep{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+
+#prep h3{
+    color: hsl(332, 51%, 32%);
+}
+
 .recipe{margin: 0px 70px;}
 .recipe * {padding: 5px}
+.recipe h1{
+    font-family: 'Young Serif', sans-serif;
+    font-size: 2.2em;
+    font-weight: 400;
+}
 
 .dash{
     width: 100%;
     background-color: gray;
+}
+
+.bold{
+    font-weight: 700;
+    color: hsl(30, 10%, 34%);
 }
 
 .fd{
