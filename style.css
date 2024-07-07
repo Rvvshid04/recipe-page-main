@@ -43,10 +43,6 @@ li::marker{
     border-radius: 10px; 
 }
 
-.food-details{
-    display: flex;
-    flex-direction: column;
-}
 
 .card{
     display: flex;
@@ -95,16 +91,27 @@ li::marker{
     font-weight: 400;
 }
 
+.food-details{
+    padding: 5px 120px 10px 40px;
+    border-bottom: 1px solid #E4DED8;
+}
+
+.content{
+    padding: 5px 160px 0px 140px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+    border-bottom: 1px solid #E4DED8;
+}
+
 .bold{
     font-weight: 700;
     color: hsl(30, 10%, 34%);
 }
 
-
-.fd .food-details{justify-content: flex-start;}
-
-.fd .food-calories{justify-content: center;}
-
+Section table .tr{
+    border-bottom: 1px solid #E4DED8;
+}  
+/* border-styling for the line was taken as inspiration from other developers  */
 
 .ingredients ul{
     margin-left: 20px;
@@ -112,6 +119,11 @@ li::marker{
 
 .Instructions ol{
     margin-left: 20px;
+}
+
+.Instructions{
+    border-top: 1px solid #E4DED8;
+    border-bottom: 1px solid #E4DED8;
 }
 /* Also found out that CSS classes are case sensitive */
 
